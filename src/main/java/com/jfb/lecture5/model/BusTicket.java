@@ -15,4 +15,14 @@ public class BusTicket {
   private String startDate;
 
   private String price;
+
+  public BusTicket(String ticketClass, String ticketType, String startDate, String price) {
+    this.ticketClass = ticketClass;
+    this.ticketType = ticketType;
+    this.startDate = startDate;
+    this.price = price;
+  }
+
+  public BusTicket() {
+  }
 }
